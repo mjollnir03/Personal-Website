@@ -1,0 +1,92 @@
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #EEEEEE;
+    margin: auto;
+    font-size: 5em; /* 16px = 100% = 1em */
+    padding-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+}
+p {
+    color: #222831;
+    font-size: 150%;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #393E46;
+    padding-top: 100px;
+    height: auto;
+}
+
+.middle-container {
+    background-color: #EEEEEE;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #393E46;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.intro {
+    color: #EEEEEE;
+}
+
+.mountain {
+    width: 100%;
+    
+}
+
+
+.profile-pic {
+    margin-top: 50px;
+    width: 30%;
+    border-radius: 100%;
+}
+
+
+
+.skill-img {
+    float: left;
+    padding-right: 50px;
+    width: 25%;
+}
+
+
+
+
+
+
+
