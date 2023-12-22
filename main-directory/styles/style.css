@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5em);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

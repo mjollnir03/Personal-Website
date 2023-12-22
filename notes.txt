@@ -44,4 +44,10 @@ $ npm run dev
 # END #
 
 //Where to find modern-normalize.css
-//Says it on the modern-normalize.css file 
+// https://github.com/sindresorhus/modern-normalize 
+
+//Where to find fonts
+
+
+//where to publish Website using GitHub Repo (Vercel)
+// https://vercel.com/
