@@ -47,7 +47,10 @@ $ npm run dev
 // https://github.com/sindresorhus/modern-normalize 
 
 //Where to find fonts (fontshare)
-//https://www.fontshare.com/
+// https://www.fontshare.com/
 
 //where to publish Website using GitHub Repo (Vercel)
 // https://vercel.com/
+
+//Where to find color's
+// https://tailwindcss.com/docs/customizing-colors 

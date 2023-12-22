@@ -17,6 +17,17 @@ font-family: 'GeneralSans-BoldItalic';
 ```
 */
 
+/*ROOT is essentially global variables*/
+:root {
+    --color-dark: #070a13;
+    --color-light: #f1f5f9;
+    --color-slate400: #94a3b8;
+    --color-slate600: #475569;
+    --color-slate800: #1e293b;
+    --color-rose: #e11d48;
+    --color-indigo: #4f46e5;
+}
+
 /* FOR ALL HTML TAGS */
 * {
     margin: 0;
@@ -26,11 +37,16 @@ font-family: 'GeneralSans-BoldItalic';
 
 html {
     scroll-behavior: smooth;
-
+    background-color: var(--color-dark);
+    color: var(--color-light);
 }
 
 body {
-    font-family: 'GeneralSans-Semibold';
+    font-family: 'GeneralSans-Regular';
+}
+
+h1 {
+    font-family: 'GeneralSans-Bold';
 }
 
 img,
@@ -39,4 +55,23 @@ video,
 canvas, 
 svg {
     display: block;
+    user-select: none;
+    max-width: 100%;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: var(--color-rose);
+}
+
+strong {
+    color:var(--color-indigo);
 }
