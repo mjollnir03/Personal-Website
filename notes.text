@@ -1,0 +1,50 @@
+//Notes to future self
+//To create future builds using nmp and vite
+//using git-bash terminal
+
+# START #
+Ellma@HOME-PC MINGW64 ~/Desktop/Dev/Personal-Website (main)
+$ npm create vite@latest
+√ Project name: ... main-directory
+√ Select a framework: » Vanilla
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\Users\Ellma\Desktop\Dev\Personal-Website\main-directory...
+
+Done. Now run:
+
+  cd main-directory
+  npm install
+  npm run dev
+
+
+Ellma@HOME-PC MINGW64 ~/Desktop/Dev/Personal-Website (main)
+$ cd main-directory
+
+Ellma@HOME-PC MINGW64 ~/Desktop/Dev/Personal-Website/main-directory (main)
+$ npm install
+
+added 9 packages, and audited 10 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Ellma@HOME-PC MINGW64 ~/Desktop/Dev/Personal-Website/main-directory (main)
+$ npm run dev
+
+> main-directory@0.0.0 dev
+> vite
+
+
+  VITE v5.0.10  ready in 156 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+^C
+
+Ellma@HOME-PC MINGW64 ~/Desktop/Dev/Personal-Website/main-directory (main)
+$ 
+# END #
