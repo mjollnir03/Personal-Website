@@ -46,8 +46,8 @@ $ npm run dev
 //Where to find modern-normalize.css
 // https://github.com/sindresorhus/modern-normalize 
 
-//Where to find fonts
-
+//Where to find fonts (fontshare)
+//https://www.fontshare.com/
 
 //where to publish Website using GitHub Repo (Vercel)
 // https://vercel.com/

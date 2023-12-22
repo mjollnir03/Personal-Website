@@ -1,4 +1,25 @@
-/* 
+# Installing Webfonts
+Follow these simple Steps.
+
+## 1.
+Put `general-sans/` Folder into a Folder called `fonts/`.
+
+## 2.
+Put `general-sans.css` into your `css/` Folder.
+
+## 3. (Optional)
+You may adapt the `url('path')` in `general-sans.css` depends on your Website Filesystem.
+
+## 4.
+Import `general-sans.css` at the top of you main Stylesheet.
+
+```
+@import url('general-sans.css');
+```
+
+## 5.
+
+
 ```
 font-family: 'GeneralSans-Variable';
 font-family: 'GeneralSans-VariableItalic';
@@ -15,28 +36,4 @@ font-family: 'GeneralSans-SemiboldItalic';
 font-family: 'GeneralSans-Bold';
 font-family: 'GeneralSans-BoldItalic';
 ```
-*/
 
-/* FOR ALL HTML TAGS */
-* {
-    margin: 0;
-    line-height: calc(1em + 0.5em);
-}
-
-
-html {
-    scroll-behavior: smooth;
-
-}
-
-body {
-    font-family: 'GeneralSans-Semibold';
-}
-
-img,
-picture,
-video,
-canvas, 
-svg {
-    display: block;
-}
