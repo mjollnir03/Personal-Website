@@ -52,5 +52,8 @@ $ npm run dev
 //where to publish Website using GitHub Repo (Vercel)
 // https://vercel.com/
 
-//Where to find color's
+//Where to find colors
 // https://tailwindcss.com/docs/customizing-colors 
+
+//Where to find icons
+// https://heroicons.com/
