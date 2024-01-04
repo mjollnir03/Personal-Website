@@ -16,6 +16,12 @@
     
 }
 
+.header__bars {
+    color: var(--color-light);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+}
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -60,10 +66,28 @@
     .header__resume {
         font-size: var(--size-xs);
     }
+
+    .header__bars {
+        display: none;
+    }
 }
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    /* We remove anything that would be repeated as the @media min-width 768 is still true */
+    .header__link {
+        font-size: var(--size-sm);
+    }
+    
+    .header__sun {
+        width: var(--size-xl);
+        height: var(--size-xl);
+    }
+    
+    .header__resume {
+        font-size: var(--size-sm);
+    }
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */
